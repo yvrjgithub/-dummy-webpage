@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px 5px;
+    display: flex;
+}
+.navlist{
+    
+    background-color: black;
+    width: 65%;
+    display: flex;
+}
+.navlist li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    font-size: 23px;
+    text-decoration: none;
+}
+.navlist li{
+    padding: 21px ;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+.bar{
+    
+    background-color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: right;
+}
+.logo img{
+   
+    width: 30%;
+    border: 3px snow;
+    border-radius: 50px;
+}
+.navlist{
+    background-color: rgba(0, 0, 0, 0.692) url("luffy.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.navlist li a:hover{
+    text-shadow:rgba(0, 0, 0, 0.35) 0px 0px 0px 5px ;
+    color: rgb(224, 159, 74);
+}
+.navlist li a:active{
+    color: rgb(163, 112, 45);
+}
+
+.bar input[type=text]{
+    font-size: 20px;
+    min-height: 20px;
+}
+.bar button{
+    background: darkslategray;
+}
+.navbar img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 32.5px;
+}
+.hero{
+    display: flex;
+    background-image: url("Screenshot\ 2023-07-10\ 174843.png");
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+}
+.box{
+    width: 23%;
+    
+    height: 570px;
+    background-color: black;
+
+}
+
+
+
+.content{
+    background-color: rblack;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box img{
+    height: 470px;
+    padding: 14px 14px 0px;
+    aspect-ratio: 185/272;
+}
+.box h1{
+    color: gainsboro;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 33px 0px;
+}
+.box p{
+    color: gainsboro;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 33px 0px;   
+}
+.panel1{
+    height: 50px;
+    color: gainsboro;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+    text-decoration: none;
+}
+.panel1 a{
+    text-decoration: none;
+    color: gainsboro;
+}
+.panel1 a:hover{
+    color: rgb(224, 159, 74);
+}
+.panel1 a:active{
+    color: rgb(163, 112, 45); 
+}
+.lists ul li{
+    font-family: sans-serif;
+    list-style: none;
+    color: gray;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.lists h3{
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.panel2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lists{
+    width: 16%;
+}
+hr{
+    color: gainsboro;
+}
+.panel3{
+    border-top: 2px solid gray;
+    height: 70px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+.panel3 img{
+    border-radius: 25px;
+}
